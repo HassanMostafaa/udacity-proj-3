@@ -41,8 +41,8 @@ const Home = ({ currentUser }) => {
   window.location.href.includes("leaderboard") &&
     localStorage.setItem("URL", "leaderboard page");
 
-  window.location.href.includes("add") || window.location.href.includes("/add") ?
-    localStorage.setItem("URL", "addPoll page") : console.log("");
+  window.location.href.includes("add","/add") &&
+    localStorage.setItem("URL", "addPoll page")
 
   const Chandler = "/Chandler.png";
   const Monika = "/Monika.jpg";
