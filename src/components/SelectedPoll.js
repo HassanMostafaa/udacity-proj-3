@@ -72,8 +72,7 @@ const SelectedPoll = () => {
     history.push("/home");
   };
 
-  console.log(window.location.href);
-  console.log(thisPoll);
+  
 
   return (
     <div>
