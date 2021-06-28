@@ -42,7 +42,7 @@ const Home = ({ currentUser }) => {
     localStorage.setItem("URL", "leaderboard page");
 
   window.location.href.includes("add","/add") &&
-    localStorage.setItem("URL", "addPoll page")
+    localStorage.setItem("URL", "addPoll page");
 
   const Chandler = "/Chandler.png";
   const Monika = "/Monika.jpg";
